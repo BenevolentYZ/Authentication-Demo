@@ -1,0 +1,11 @@
+@page
+@model Security.Pages.Account.AccessDeniedModel
+@{
+    ViewData["Title"] = "AccessDenied";
+}
+
+<h1>AccessDenied</h1>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
